@@ -1,11 +1,16 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System.Text.Json.Serialization;
+using Microsoft.EntityFrameworkCore;
 using userMgrApi.Core.DbContext;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
-builder.Services.AddControllers();
+//enable enums
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
+    });
 
 //DB
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
@@ -20,6 +25,18 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 });
 
 
+//dependency injection
+
+
+//Identity
+
+
+
+//config identity
+
+
+
+//jwt authenticationSchema and jwtBearer
 
 
 
