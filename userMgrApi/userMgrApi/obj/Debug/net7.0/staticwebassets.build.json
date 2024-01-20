@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "iCscOSUFnKfCU6MZjqU9Ga7xdJ1fCf69HpjxmiKgGpc=",
+  "Source": "userMgrApi",
+  "BasePath": "_content/userMgrApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
