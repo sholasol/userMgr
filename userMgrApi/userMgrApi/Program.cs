@@ -1,6 +1,8 @@
 ﻿using System.Text.Json.Serialization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using userMgrApi.Core.DbContext;
+using userMgrApi.Core.Entities;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,8 +30,11 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 //dependency injection
 
 
-//Identity
 
+//Identity
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
+    .AddEntityFrameworkStores<ApplicationDbContext>()
+    .AddDefaultTokenProviders();
 
 
 //config identity
