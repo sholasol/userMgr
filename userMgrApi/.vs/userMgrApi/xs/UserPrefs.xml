@@ -1,35 +1,32 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{552D6663-ADF1-433F-A57E-8B5594CA8E11}|https">
-  <MonoDevelop.Ide.Workbench ActiveDocument="userMgrApi/Core/Dtos/Message/GetMessageDto.cs">
+﻿<Properties StartupConfiguration="{552D6663-ADF1-433F-A57E-8B5594CA8E11}|https" GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.userMgrApi PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="userMgrApi/Core/Services/AuthService.cs">
     <Files>
-      <File FileName="userMgrApi/Core/Dtos/Message/CreateMessageDto.cs" Line="11" Column="1" />
-      <File FileName="userMgrApi/Core/Dtos/Message/GetMessageDto.cs" Line="14" Column="58" />
+      <File FileName="userMgrApi/Program.cs" Line="18" Column="6" />
+      <File FileName="userMgrApi/Core/Services/AuthService.cs" Line="69" Column="58" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="userMgrApi">
+          <Node name="userMgrApi" expanded="True">
             <Node name="userMgrApi">
-              <Node name="Core" expanded="True">
-                <Node name="Dtos" expanded="True">
-                  <Node name="Message" expanded="True">
-                    <Node name="GetMessageDto.cs" selected="True" />
-                  </Node>
+              <Node name="Core">
+                <Node name="Entities" expanded="True" />
+                <Node name="Interfaces" expanded="True" />
+                <Node name="Services">
+                  <Node name="AuthService.cs" selected="True" />
                 </Node>
               </Node>
             </Node>
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.userMgrApi PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

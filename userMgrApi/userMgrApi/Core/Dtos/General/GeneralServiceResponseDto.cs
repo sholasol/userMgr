@@ -3,7 +3,7 @@ namespace userMgrApi.Core.Dtos.General
 {
 	public class GeneralServiceResponseDto
 	{
-		public bool isSuccess { get; set; }
+		public bool isSucceed { get; set; }
 
 		public int StatusCode { get; set; }
 

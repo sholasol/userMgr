@@ -6,6 +6,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using userMgrApi.Core.DbContext;
 using userMgrApi.Core.Entities;
+using userMgrApi.Core.Interfaces;
+using userMgrApi.Core.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -31,7 +33,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 
 //dependency injection
-
+builder.Services.AddScoped<ILogService, LogService>();
 
 
 //Identity
