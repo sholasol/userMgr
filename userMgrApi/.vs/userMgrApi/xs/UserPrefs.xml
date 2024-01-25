@@ -1,26 +1,16 @@
-﻿<Properties StartupConfiguration="{552D6663-ADF1-433F-A57E-8B5594CA8E11}|https" GitUserInfo="UsingGIT">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.userMgrApi PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{552D6663-ADF1-433F-A57E-8B5594CA8E11}|https">
   <MonoDevelop.Ide.Workbench ActiveDocument="userMgrApi/Core/Services/AuthService.cs">
     <Files>
-      <File FileName="userMgrApi/Program.cs" Line="18" Column="6" />
-      <File FileName="userMgrApi/Core/Services/AuthService.cs" Line="69" Column="58" />
+      <File FileName="userMgrApi/Program.cs" />
+      <File FileName="userMgrApi/Core/Services/AuthService.cs" Line="286" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="userMgrApi" expanded="True">
+          <Node name="userMgrApi">
             <Node name="userMgrApi">
               <Node name="Core">
-                <Node name="Entities" expanded="True" />
                 <Node name="Interfaces" expanded="True" />
-                <Node name="Services">
-                  <Node name="AuthService.cs" selected="True" />
-                </Node>
               </Node>
             </Node>
           </Node>
@@ -28,5 +18,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.userMgrApi PreferredExecutionTarget="/Applications/Safari.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

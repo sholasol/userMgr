@@ -20,7 +20,7 @@ namespace userMgrApi.Core.Interfaces
 
         Task<IEnumerable<UserInfoResult>> GetUsersListAsync();
 
-		Task<UserInfoResult> GetUserDetailsByUserName(string userName);
+		Task<UserInfoResult> GetUserDetailsByUserNameAsync(string userName);
 
 		Task<IEnumerable<string>> GetUsernamesListAsync();
     }
