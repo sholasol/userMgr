@@ -1,16 +1,23 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{552D6663-ADF1-433F-A57E-8B5594CA8E11}|https">
-  <MonoDevelop.Ide.Workbench ActiveDocument="userMgrApi/Core/Services/AuthService.cs">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="userMgrApi/Core/Interfaces/IAuthService.cs">
     <Files>
-      <File FileName="userMgrApi/Program.cs" />
-      <File FileName="userMgrApi/Core/Services/AuthService.cs" Line="286" Column="1" />
+      <File FileName="userMgrApi/Program.cs" Line="1" Column="1" />
+      <File FileName="userMgrApi/Core/Interfaces/IAuthService.cs" Line="29" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="userMgrApi">
-            <Node name="userMgrApi">
-              <Node name="Core">
-                <Node name="Interfaces" expanded="True" />
+          <Node name="userMgrApi" expanded="True">
+            <Node name="userMgrApi" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Core" expanded="True">
+                <Node name="Entities" expanded="True" />
+                <Node name="Interfaces" expanded="True">
+                  <Node name="IAuthService.cs" selected="True" />
+                </Node>
+                <Node name="Services" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -18,11 +25,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.userMgrApi PreferredExecutionTarget="/Applications/Safari.app" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.userMgrApi PreferredExecutionTarget="/Applications/Safari.app" />
+  <MultiItemStartupConfigurations />
 </Properties>

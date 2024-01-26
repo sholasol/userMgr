@@ -34,6 +34,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 //dependency injection
 builder.Services.AddScoped<ILogService, LogService>();
+builder.Services.AddScoped<IMessageServices, MessageService>();
+builder.Services.AddScoped<IAuthService, AuthService>();
 
 
 //Identity
