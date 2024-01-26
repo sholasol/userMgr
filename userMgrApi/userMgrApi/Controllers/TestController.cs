@@ -6,7 +6,7 @@ using userMgrApi.Core.Constants;
 
 namespace userMgrApi.Controllers
 {
-	[Route("api/controller")]
+	[Route("api/[controller]")]
 	[ApiController]
 
 	public class TestController : ControllerBase
