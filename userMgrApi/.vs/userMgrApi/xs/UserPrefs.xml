@@ -1,33 +1,32 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{552D6663-ADF1-433F-A57E-8B5594CA8E11}|https">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="userMgrApi/Core/Interfaces/IAuthService.cs">
+﻿<Properties StartupConfiguration="{552D6663-ADF1-433F-A57E-8B5594CA8E11}|https" GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="userMgrApi/Program.cs">
     <Files>
-      <File FileName="userMgrApi/Program.cs" Line="1" Column="1" />
-      <File FileName="userMgrApi/Core/Interfaces/IAuthService.cs" Line="29" Column="1" />
+      <File FileName="userMgrApi/Program.cs" Line="131" Column="23" />
+      <File FileName="userMgrApi/Controllers/AuthController.cs" Line="24" Column="24" />
+      <File FileName="userMgrApi/Core/Interfaces/IAuthService.cs" Line="1" Column="1" />
+      <File FileName="userMgrApi/Core/Services/AuthService.cs" Line="68" Column="84" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="userMgrApi" expanded="True">
-            <Node name="userMgrApi" expanded="True">
+          <Node name="userMgrApi">
+            <Node name="userMgrApi">
               <Node name="Controllers" expanded="True" />
-              <Node name="Core" expanded="True">
-                <Node name="Entities" expanded="True" />
-                <Node name="Interfaces" expanded="True">
-                  <Node name="IAuthService.cs" selected="True" />
-                </Node>
-                <Node name="Services" expanded="True" />
-              </Node>
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.userMgrApi PreferredExecutionTarget="/Applications/Safari.app" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.userMgrApi PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

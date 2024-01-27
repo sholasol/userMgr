@@ -40,7 +40,7 @@ namespace userMgrApi.Controllers
 		[HttpGet]
 		[Route("mine")]
 		[Authorize]
-		public async Task<ActionResult<IEnumerable<GetMessageDto>>>GetMessages()
+		public async Task<ActionResult<IEnumerable<GetMessageDto>>>GetMyMessages()
 		{
 			var messages = await _messageService.GetMyMessagesAsync(User);
 			return Ok(messages);

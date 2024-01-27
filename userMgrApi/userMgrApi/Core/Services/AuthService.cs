@@ -56,15 +56,16 @@ namespace userMgrApi.Core.Services
                     StatusCode = 200,
                     Message = "Role seeding is already done"
                 };
-
-                await _roleManager.CreateAsync(new IdentityRole(StaticUserRoles.OWNER));
-
-                await _roleManager.CreateAsync(new IdentityRole(StaticUserRoles.ADMIN));
-
-                await _roleManager.CreateAsync(new IdentityRole(StaticUserRoles.MANAGER));
-
-                await _roleManager.CreateAsync(new IdentityRole(StaticUserRoles.USER));
+                
             }
+
+            await _roleManager.CreateAsync(new IdentityRole(StaticUserRoles.OWNER));
+
+            await _roleManager.CreateAsync(new IdentityRole(StaticUserRoles.ADMIN));
+
+            await _roleManager.CreateAsync(new IdentityRole(StaticUserRoles.MANAGER));
+
+            await _roleManager.CreateAsync(new IdentityRole(StaticUserRoles.USER));
 
             return new GeneralServiceResponseDto()
             {

@@ -96,7 +96,40 @@ namespace userMgrApi.Controllers
 
 
 		//list all users
+		[HttpGet]
+		[Route("users")]
+		public async Task<ActionResult<IEnumerable<UserInfoResult>>> GetUsersList()
+		{
+			var usersList = await _authService.GetUsersListAsync();
 
+			return Ok(usersList);
+		}
+
+		//get a user by username
+		[HttpGet]
+		[Route("users/{username}")]
+		public async Task<ActionResult<UserInfoResult>> GetUserDetailesByUsername([FromRoute] string userName)
+		{
+			var user = await _authService.GetUserDetailsByUserNameAsync(userName);
+			if(user is not null)
+			{
+				return Ok(user);
+			}
+			else
+			{
+				return NotFound("Username not found");
+			}
+		}
+
+		//get List of all usernames for send message
+		[HttpGet]
+		[Route("usernames")]
+		public async Task<ActionResult<IEnumerable<string>>>GetUserNamesList()
+		{
+			var usernames = await _authService.GetUsernamesListAsync();
+
+			return Ok(usernames);
+		}
 
 
 	}
