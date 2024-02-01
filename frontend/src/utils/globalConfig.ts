@@ -1,4 +1,4 @@
-import { PATH_DASHBOARD, PATH_PUBLIC } from "./routes/path";
+import { PATH_DASHBOARD, PATH_PUBLIC } from "../routes/path";
 
 //urls
 export const HOST_API_KEY = 'https://localhost:7082/api';

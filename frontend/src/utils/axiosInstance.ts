@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { HOST_API_KEY } from '../globalConfig';
+import { HOST_API_KEY } from './globalConfig';
 
 const axiosInstance = axios.create({baseURL: HOST_API_KEY });
 
